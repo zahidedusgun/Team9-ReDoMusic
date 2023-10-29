@@ -1,0 +1,26 @@
+﻿@using ReDoMusic.Domain.Entities
+
+@model List<Brand>
+<table class="table">
+    <thead>
+    <tr>
+        <th scope="col">Name</th>
+        <th scope="col">Description</th>
+        <th scope="col">Address</th>
+        <th scope="col">Delete</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+        @foreach (var brand in Model)
+        {
+        <tr>
+            <td>@brand.Name</td>
+            <td>@brand.Description</td>
+            <td>@brand.Adress</td>
+            <td><a asp-action="DeleteBrand" asp-route-id="@brand.Id" class="btn btn-danger">Delete</a></td>
+         </tr>
+        }
+
+    </tbody>
+</table>

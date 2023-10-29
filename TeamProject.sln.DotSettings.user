@@ -1,0 +1,10 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/RunConfigs/Config/=9168F571C724934D8C1AA1F3646C498C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/RunConfigs/Config/=9168F571C724934D8C1AA1F3646C498C/Name/@EntryValue">Presentation</s:String>
+	<s:String x:Key="/Default/RunConfigs/Config/=9168F571C724934D8C1AA1F3646C498C/ProjectGuid/@EntryValue">BFAAEEC1AACCBD48AE17833677309D46</s:String>
+	<s:String x:Key="/Default/RunConfigs/Config/=9168F571C724934D8C1AA1F3646C498C/Type/@EntryValue">project</s:String>
+	<s:Boolean x:Key="/Default/RunConfigs/Config/=CFF72A35CD82B5469D2DBAAAC0AA95DF/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/RunConfigs/Config/=CFF72A35CD82B5469D2DBAAAC0AA95DF/Type/@EntryValue">project</s:String>
+	<s:String x:Key="/Default/RunConfigs/Config/=CFF72A35CD82B5469D2DBAAAC0AA95DF/Name/@EntryValue">Infrastructure</s:String>
+	<s:String x:Key="/Default/RunConfigs/Config/=CFF72A35CD82B5469D2DBAAAC0AA95DF/ProjectGuid/@EntryValue">255C4E9FFD98134C888D7BAAB451B542</s:String>
+	<s:String x:Key="/Default/RunConfigs/Active/@EntryValue">9168F571C724934D8C1AA1F3646C498C</s:String></wpf:ResourceDictionary>
