@@ -11,13 +11,11 @@ namespace ReDoMusic.Domain.Entities
     public class Instrument : EntityBase<Guid>
     {
         public string Name { get; set; }
-        public Brand Brand { get; set; }
-        public string Model  { get; set; }
-        public string Color { get; set; }
+        public Brand Brand { get; set; } 
         public string Barcode { get; set; }
         public string PictureUrl { get; set; }
         public string Description { get; set; }
-        public string Price { get; set; }
+        public decimal Price { get; set; }
 
     }
 }

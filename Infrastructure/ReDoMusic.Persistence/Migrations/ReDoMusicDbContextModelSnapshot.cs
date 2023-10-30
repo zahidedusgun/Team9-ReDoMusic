@@ -79,10 +79,6 @@ namespace ReDoMusic.Persistence.Migrations
                     b.Property<Guid>("BrandId")
                         .HasColumnType("uuid");
 
-                    b.Property<string>("Color")
-                        .IsRequired()
-                        .HasColumnType("text");
-
                     b.Property<string>("CreatedByUserId")
                         .HasColumnType("text");
 
@@ -102,10 +98,6 @@ namespace ReDoMusic.Persistence.Migrations
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("boolean");
 
-                    b.Property<string>("Model")
-                        .IsRequired()
-                        .HasColumnType("text");
-
                     b.Property<string>("ModifiedByUserId")
                         .HasColumnType("text");
 
@@ -120,9 +112,8 @@ namespace ReDoMusic.Persistence.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<string>("Price")
-                        .IsRequired()
-                        .HasColumnType("text");
+                    b.Property<decimal>("Price")
+                        .HasColumnType("numeric");
 
                     b.HasKey("Id");
 
