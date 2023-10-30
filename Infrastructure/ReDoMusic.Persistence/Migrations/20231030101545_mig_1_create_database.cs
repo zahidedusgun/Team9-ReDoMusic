@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace ReDoMusic.Persistence.Migrations
 {
     /// <inheritdoc />
-    public partial class mig1createdatabase : Migration
+    public partial class mig_1_create_database : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -39,12 +39,10 @@ namespace ReDoMusic.Persistence.Migrations
                     Id = table.Column<Guid>(type: "uuid", nullable: false),
                     Name = table.Column<string>(type: "text", nullable: false),
                     BrandId = table.Column<Guid>(type: "uuid", nullable: false),
-                    Model = table.Column<string>(type: "text", nullable: false),
-                    Color = table.Column<string>(type: "text", nullable: false),
                     Barcode = table.Column<string>(type: "text", nullable: false),
                     PictureUrl = table.Column<string>(type: "text", nullable: false),
                     Description = table.Column<string>(type: "text", nullable: false),
-                    Price = table.Column<string>(type: "text", nullable: false),
+                    Price = table.Column<decimal>(type: "numeric", nullable: false),
                     CreatedByUserId = table.Column<string>(type: "text", nullable: true),
                     CreatedOn = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
                     ModifiedByUserId = table.Column<string>(type: "text", nullable: true),

@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using ReDoMusic.Persistence.Contexts;
 
 
-namespace Week_6_4.MVC.Controllers
+namespace ReDoMusic.MVC.Controllers
 {
     public class InstrumentController : Controller
     {
@@ -39,6 +39,7 @@ namespace Week_6_4.MVC.Controllers
                 Id = Guid.NewGuid(),
                 Name = name,
                 Description = description,
+                Price = Convert.ToDecimal(price),
                 Barcode = barcode,
                 Brand = brand,
                 CreatedOn = DateTime.UtcNow,
