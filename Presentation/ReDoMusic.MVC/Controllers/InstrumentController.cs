@@ -25,14 +25,15 @@ namespace ReDoMusic.MVC.Controllers
         public IActionResult Add()
         {
             var brands = _dbContext.Brands.ToList();
-
             return View(brands);
         }
 
+
         [HttpPost]
-        public IActionResult Add(string name, string description, string brandId, string price, string barcode, string pictureUrl)
+        public IActionResult Add(string name, string description, string brandId, string categoryId, string price, string barcode, string pictureUrl)
         {
             var brand = _dbContext.Brands.Where(x => x.Id == Guid.Parse(brandId)).FirstOrDefault();
+            var category = _dbContext.Category.Where(x => x.Id == Guid.Parse(categoryId)).FirstOrDefault()
 
             var instrument = new ReDoMusic.Domain.Entities.Instrument()
             {
@@ -42,6 +43,7 @@ namespace ReDoMusic.MVC.Controllers
                 Price = Convert.ToDecimal(price),
                 Barcode = barcode,
                 Brand = brand,
+                Category = category,
                 CreatedOn = DateTime.UtcNow,
                 PictureUrl = pictureUrl
             };

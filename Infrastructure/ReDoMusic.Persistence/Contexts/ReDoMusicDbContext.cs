@@ -10,8 +10,11 @@ namespace ReDoMusic.Persistence.Contexts
 {
     public class ReDoMusicDbContext : DbContext
     {
+
         public DbSet<Instrument> Instruments { get; set; }
         public DbSet<Brand> Brands { get; set; }
+
+        public DbSet<Category> Category { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
