@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GPjbPLgaLvTnSpF+xRUTFNaP73gQpYsLgeATCyAo0Vd8TL3taHKun//7lewv5Njac3hnd5C6GS3Uv3E0M8im6w==",
+  "dgSpecHash": "6cC7wv5NF+8nIz/JC+vSid6B/FCjXGB7V9TP8JF+vid3HGR6TNvo1YXmcOH4A6H+vVvmGP/yC37Io/gNEg1XVQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Zahide Düşgün\\Desktop\\TeamProject\\Presentation\\ReDoMusic.MVC\\ReDoMusic.MVC.csproj",
+  "projectFilePath": "C:\\Users\\Zahide Düşgün\\Desktop\\TeamProject\\Team9-ReDoMusic\\Presentation\\ReDoMusic.MVC\\ReDoMusic.MVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Zahide Düşgün\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Zahide Düşgün\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.12\\microsoft.entityframeworkcore.7.0.12.nupkg.sha512",

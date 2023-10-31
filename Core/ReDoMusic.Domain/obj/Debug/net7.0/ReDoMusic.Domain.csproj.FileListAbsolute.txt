@@ -22,3 +22,15 @@ C:\Users\Zahide Düşgün\Desktop\TeamProject\Core\ReDoMusic.Domain\obj\Debug\ne
 C:\Users\Zahide Düşgün\Desktop\TeamProject\Core\ReDoMusic.Domain\obj\Debug\net7.0\refint\ReDoMusic.Domain.dll
 C:\Users\Zahide Düşgün\Desktop\TeamProject\Core\ReDoMusic.Domain\obj\Debug\net7.0\ReDoMusic.Domain.pdb
 C:\Users\Zahide Düşgün\Desktop\TeamProject\Core\ReDoMusic.Domain\obj\Debug\net7.0\ref\ReDoMusic.Domain.dll
+C:\Users\Zahide Düşgün\Desktop\TeamProject\Team9-ReDoMusic\Core\ReDoMusic.Domain\bin\Debug\net7.0\ReDoMusic.Domain.deps.json
+C:\Users\Zahide Düşgün\Desktop\TeamProject\Team9-ReDoMusic\Core\ReDoMusic.Domain\bin\Debug\net7.0\ReDoMusic.Domain.dll
+C:\Users\Zahide Düşgün\Desktop\TeamProject\Team9-ReDoMusic\Core\ReDoMusic.Domain\bin\Debug\net7.0\ReDoMusic.Domain.pdb
+C:\Users\Zahide Düşgün\Desktop\TeamProject\Team9-ReDoMusic\Core\ReDoMusic.Domain\obj\Debug\net7.0\ReDoMusic.Domain.csproj.AssemblyReference.cache
+C:\Users\Zahide Düşgün\Desktop\TeamProject\Team9-ReDoMusic\Core\ReDoMusic.Domain\obj\Debug\net7.0\ReDoMusic.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zahide Düşgün\Desktop\TeamProject\Team9-ReDoMusic\Core\ReDoMusic.Domain\obj\Debug\net7.0\ReDoMusic.Domain.AssemblyInfoInputs.cache
+C:\Users\Zahide Düşgün\Desktop\TeamProject\Team9-ReDoMusic\Core\ReDoMusic.Domain\obj\Debug\net7.0\ReDoMusic.Domain.AssemblyInfo.cs
+C:\Users\Zahide Düşgün\Desktop\TeamProject\Team9-ReDoMusic\Core\ReDoMusic.Domain\obj\Debug\net7.0\ReDoMusic.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Zahide Düşgün\Desktop\TeamProject\Team9-ReDoMusic\Core\ReDoMusic.Domain\obj\Debug\net7.0\ReDoMusic.Domain.dll
+C:\Users\Zahide Düşgün\Desktop\TeamProject\Team9-ReDoMusic\Core\ReDoMusic.Domain\obj\Debug\net7.0\refint\ReDoMusic.Domain.dll
+C:\Users\Zahide Düşgün\Desktop\TeamProject\Team9-ReDoMusic\Core\ReDoMusic.Domain\obj\Debug\net7.0\ReDoMusic.Domain.pdb
+C:\Users\Zahide Düşgün\Desktop\TeamProject\Team9-ReDoMusic\Core\ReDoMusic.Domain\obj\Debug\net7.0\ref\ReDoMusic.Domain.dll

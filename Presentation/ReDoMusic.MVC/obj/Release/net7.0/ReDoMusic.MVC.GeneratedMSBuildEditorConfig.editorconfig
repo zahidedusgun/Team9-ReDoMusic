@@ -9,69 +9,69 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ReDoMusic.MVC
 build_property.RootNamespace = ReDoMusic.MVC
-build_property.ProjectDir = C:\Users\Zahide Düşgün\Desktop\TeamProject\Presentation\ReDoMusic.MVC\
+build_property.ProjectDir = C:\Users\Zahide Düşgün\Desktop\TeamProject\Team9-ReDoMusic\Presentation\ReDoMusic.MVC\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Zahide Düşgün\Desktop\TeamProject\Presentation\ReDoMusic.MVC
+build_property.MSBuildProjectDirectory = C:\Users\Zahide Düşgün\Desktop\TeamProject\Team9-ReDoMusic\Presentation\ReDoMusic.MVC
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Zahide Düşgün/Desktop/TeamProject/Presentation/ReDoMusic.MVC/Views/Brand/AddBrand.cshtml]
+[C:/Users/Zahide Düşgün/Desktop/TeamProject/Team9-ReDoMusic/Presentation/ReDoMusic.MVC/Views/Brand/AddBrand.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJhbmRcQWRkQnJhbmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Zahide Düşgün/Desktop/TeamProject/Presentation/ReDoMusic.MVC/Views/Brand/DeleteBrand.cshtml]
+[C:/Users/Zahide Düşgün/Desktop/TeamProject/Team9-ReDoMusic/Presentation/ReDoMusic.MVC/Views/Brand/DeleteBrand.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJhbmRcRGVsZXRlQnJhbmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Zahide Düşgün/Desktop/TeamProject/Presentation/ReDoMusic.MVC/Views/Brand/Index.cshtml]
+[C:/Users/Zahide Düşgün/Desktop/TeamProject/Team9-ReDoMusic/Presentation/ReDoMusic.MVC/Views/Brand/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJhbmRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Zahide Düşgün/Desktop/TeamProject/Presentation/ReDoMusic.MVC/Views/Category/AddCategory.cshtml]
+[C:/Users/Zahide Düşgün/Desktop/TeamProject/Team9-ReDoMusic/Presentation/ReDoMusic.MVC/Views/Category/AddCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQWRkQ2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Zahide Düşgün/Desktop/TeamProject/Presentation/ReDoMusic.MVC/Views/Category/DeleteCategory.cshtml]
+[C:/Users/Zahide Düşgün/Desktop/TeamProject/Team9-ReDoMusic/Presentation/ReDoMusic.MVC/Views/Category/CategoryIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ2F0ZWdvcnlJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Zahide Düşgün/Desktop/TeamProject/Team9-ReDoMusic/Presentation/ReDoMusic.MVC/Views/Category/DeleteCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRGVsZXRlQ2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Zahide Düşgün/Desktop/TeamProject/Presentation/ReDoMusic.MVC/Views/Category/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Zahide Düşgün/Desktop/TeamProject/Presentation/ReDoMusic.MVC/Views/Home/Index.cshtml]
+[C:/Users/Zahide Düşgün/Desktop/TeamProject/Team9-ReDoMusic/Presentation/ReDoMusic.MVC/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Zahide Düşgün/Desktop/TeamProject/Presentation/ReDoMusic.MVC/Views/Instrument/Add.cshtml]
+[C:/Users/Zahide Düşgün/Desktop/TeamProject/Team9-ReDoMusic/Presentation/ReDoMusic.MVC/Views/Instrument/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1bWVudFxBZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Zahide Düşgün/Desktop/TeamProject/Presentation/ReDoMusic.MVC/Views/Instrument/Index.cshtml]
+[C:/Users/Zahide Düşgün/Desktop/TeamProject/Team9-ReDoMusic/Presentation/ReDoMusic.MVC/Views/Instrument/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1bWVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Zahide Düşgün/Desktop/TeamProject/Presentation/ReDoMusic.MVC/Views/Instrument/Inspect.cshtml]
+[C:/Users/Zahide Düşgün/Desktop/TeamProject/Team9-ReDoMusic/Presentation/ReDoMusic.MVC/Views/Instrument/Inspect.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1bWVudFxJbnNwZWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Zahide Düşgün/Desktop/TeamProject/Presentation/ReDoMusic.MVC/Views/Shared/Error.cshtml]
+[C:/Users/Zahide Düşgün/Desktop/TeamProject/Team9-ReDoMusic/Presentation/ReDoMusic.MVC/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Zahide Düşgün/Desktop/TeamProject/Presentation/ReDoMusic.MVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Zahide Düşgün/Desktop/TeamProject/Team9-ReDoMusic/Presentation/ReDoMusic.MVC/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Zahide Düşgün/Desktop/TeamProject/Presentation/ReDoMusic.MVC/Views/_ViewImports.cshtml]
+[C:/Users/Zahide Düşgün/Desktop/TeamProject/Team9-ReDoMusic/Presentation/ReDoMusic.MVC/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Zahide Düşgün/Desktop/TeamProject/Presentation/ReDoMusic.MVC/Views/_ViewStart.cshtml]
+[C:/Users/Zahide Düşgün/Desktop/TeamProject/Team9-ReDoMusic/Presentation/ReDoMusic.MVC/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Zahide Düşgün/Desktop/TeamProject/Presentation/ReDoMusic.MVC/Views/Shared/_Layout.cshtml]
+[C:/Users/Zahide Düşgün/Desktop/TeamProject/Team9-ReDoMusic/Presentation/ReDoMusic.MVC/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-evafahnmsx

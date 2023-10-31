@@ -1321,11 +1321,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Zahide Düşgün\\Desktop\\TeamProject\\Presentation\\ReDoMusic.MVC\\ReDoMusic.MVC.csproj",
+      "projectUniqueName": "C:\\Users\\Zahide Düşgün\\Desktop\\TeamProject\\Team9-ReDoMusic\\Presentation\\ReDoMusic.MVC\\ReDoMusic.MVC.csproj",
       "projectName": "ReDoMusic.MVC",
-      "projectPath": "C:\\Users\\Zahide Düşgün\\Desktop\\TeamProject\\Presentation\\ReDoMusic.MVC\\ReDoMusic.MVC.csproj",
+      "projectPath": "C:\\Users\\Zahide Düşgün\\Desktop\\TeamProject\\Team9-ReDoMusic\\Presentation\\ReDoMusic.MVC\\ReDoMusic.MVC.csproj",
       "packagesPath": "C:\\Users\\Zahide Düşgün\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Zahide Düşgün\\Desktop\\TeamProject\\Presentation\\ReDoMusic.MVC\\obj\\",
+      "outputPath": "C:\\Users\\Zahide Düşgün\\Desktop\\TeamProject\\Team9-ReDoMusic\\Presentation\\ReDoMusic.MVC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Zahide Düşgün\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1342,8 +1342,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Zahide Düşgün\\Desktop\\TeamProject\\Infrastructure\\ReDoMusic.Persistence\\ReDoMusic.Persistence.csproj": {
-              "projectPath": "C:\\Users\\Zahide Düşgün\\Desktop\\TeamProject\\Infrastructure\\ReDoMusic.Persistence\\ReDoMusic.Persistence.csproj"
+            "C:\\Users\\Zahide Düşgün\\Desktop\\TeamProject\\Team9-ReDoMusic\\Infrastructure\\ReDoMusic.Persistence\\ReDoMusic.Persistence.csproj": {
+              "projectPath": "C:\\Users\\Zahide Düşgün\\Desktop\\TeamProject\\Team9-ReDoMusic\\Infrastructure\\ReDoMusic.Persistence\\ReDoMusic.Persistence.csproj"
             }
           }
         }
