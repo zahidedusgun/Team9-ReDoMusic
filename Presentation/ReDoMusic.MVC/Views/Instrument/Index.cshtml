@@ -10,11 +10,6 @@
             flex: 1;
             padding: 10px;
         }
-
-        .card-image-top{
-            height:50px;
-            widht:50px;
-        }
     </style>
 </head>
 
@@ -22,8 +17,7 @@
 <div class="row">
     @foreach (var product in Model)
     {
-
-        <div class="card column">
+        <div class="card column" style="width:400px;">
             <img class="card-img-top" src="@product.PictureUrl" alt="Card image">
             <div class="card-body">
                 <h4 class="card-title">@product.Name</h4>
@@ -31,7 +25,6 @@
                 <a href="/instrument/inspect/@product.Id" class="btn btn-primary">Inspect</a>
             </div>
         </div>
-
     }
 </div>
 </body>
