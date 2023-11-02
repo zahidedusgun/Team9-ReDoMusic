@@ -15,7 +15,7 @@ namespace ReDoMusic.MVC.Controllers
         [HttpGet]
         public IActionResult CategoryIndex()
         {
-            var categories = _context.Category.ToList();
+            var categories = _context.Categories.ToList();
             return View(categories);
         }
         [HttpGet]
@@ -33,7 +33,7 @@ namespace ReDoMusic.MVC.Controllers
                 Name = categoryName,
                 ImageUrl = categoryImageUrl
             };
-            _context.Category.Add(category);
+            _context.Categories.Add(category);
             _context.SaveChanges();
             return View();
         }
@@ -41,8 +41,11 @@ namespace ReDoMusic.MVC.Controllers
         [HttpGet]
         public IActionResult DeleteCategory(string id)
         {
-            var category = _context.Category.Where(x => x.Id == Guid.Parse(id)).FirstOrDefault();
-            _context.Category.Remove(category);
+
+
+            var category = _context.Categories.Where(x => x.Id == Guid.Parse(id)).FirstOrDefault();
+            _context.Categories.Remove(category);
+
             _context.SaveChanges();
             return RedirectToAction("index");
         }

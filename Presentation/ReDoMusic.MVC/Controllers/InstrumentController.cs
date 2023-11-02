@@ -25,7 +25,15 @@ namespace ReDoMusic.MVC.Controllers
         public IActionResult Add()
         {
             var brands = _dbContext.Brands.ToList();
+<<<<<<< HEAD
+            var categories = _dbContext.Categories.ToList();
+            var addInstrument = new AddInstrumentModel();
+            addInstrument.Brands = brands;
+            addInstrument.Categories = categories;
+            return View(addInstrument);
+=======
             return View(brands);
+>>>>>>> 7be1f69e9875f8ef2dc2742cba34b533cf880d0e
         }
 
 
@@ -37,6 +45,7 @@ namespace ReDoMusic.MVC.Controllers
 
             var instrument = new ReDoMusic.Domain.Entities.Instrument()
             {
+
                 Id = Guid.NewGuid(),
                 Name = name,
                 Description = description,
