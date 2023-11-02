@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using ReDoMusic.MVC.Models;
 using ReDoMusic.Persistence.Contexts;
 
 
@@ -25,7 +26,11 @@ namespace ReDoMusic.MVC.Controllers
         public IActionResult Add()
         {
             var brands = _dbContext.Brands.ToList();
-            return View(brands);
+            var categories = _dbContext.Categories.ToList();
+            var addInstrument = new AddInstrumentModel();
+            addInstrument.Brands = brands;
+            addInstrument.Categories = categories;
+            return View(addInstrument);
         }
 
 
@@ -33,7 +38,7 @@ namespace ReDoMusic.MVC.Controllers
         public IActionResult Add(string name, string description, string brandId, string categoryId, string price, string barcode, string pictureUrl)
         {
             var brand = _dbContext.Brands.Where(x => x.Id == Guid.Parse(brandId)).FirstOrDefault();
-            var category = _dbContext.Category.Where(x => x.Id == Guid.Parse(categoryId)).FirstOrDefault();
+            var category = _dbContext.Categories.Where(x => x.Id == Guid.Parse(categoryId)).FirstOrDefault();
 
             var instrument = new ReDoMusic.Domain.Entities.Instrument()
             {
