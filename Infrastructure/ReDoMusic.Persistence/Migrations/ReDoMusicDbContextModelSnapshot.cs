@@ -103,7 +103,7 @@ namespace ReDoMusic.Persistence.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Categories");
+                    b.ToTable("Category");
                 });
 
             modelBuilder.Entity("ReDoMusic.Domain.Entities.Instrument", b =>
