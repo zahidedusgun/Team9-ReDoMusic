@@ -42,8 +42,10 @@ namespace ReDoMusic.MVC.Controllers
         public IActionResult DeleteCategory(string id)
         {
 
+
             var category = _context.Categories.Where(x => x.Id == Guid.Parse(id)).FirstOrDefault();
             _context.Categories.Remove(category);
+
             _context.SaveChanges();
             return RedirectToAction("index");
         }

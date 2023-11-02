@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dqvVLYhKm0oZGCdw+bo+YL4h7lI88s/kP6hU1SzWZq70F103pPdMEfFiwf+5HxIKLr2WwRmCjbPPo4VtRQG3Ig==",
+  "dgSpecHash": "5yM2jB2BUBFbkjD9D5Sztgeqkuku6A4t9MM8smlJME5lfoy5064sUM0NaogqUmr62yp2Pt+vW185MwPiR1WPtg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Zahide Düşgün\\Desktop\\TeamProject\\Team9-ReDoMusic\\Core\\ReDoMusic.Domain\\ReDoMusic.Domain.csproj",
+  "projectFilePath": "C:\\Users\\Zahide Düşgün\\Desktop\\TeamProject\\Core\\ReDoMusic.Domain\\ReDoMusic.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Zahide Düşgün\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.12\\microsoft.entityframeworkcore.7.0.12.nupkg.sha512",
     "C:\\Users\\Zahide Düşgün\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.12\\microsoft.entityframeworkcore.abstractions.7.0.12.nupkg.sha512",

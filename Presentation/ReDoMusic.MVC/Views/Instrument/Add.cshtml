@@ -1,5 +1,4 @@
-﻿@model AddInstrumentModel
-
+﻿@model List<ReDoMusic.Domain.Entities.Category>
 <form method="post">
     <div class="mb-3 mt-3">
         <label class="form-label">Name:</label>
@@ -22,15 +21,17 @@
         <input type="text" class="form-control" placeholder="Enter Barcode" name="pictureUrl">
     </div>
     <br />
-    <select name="brandId">
-        @foreach (var brand in Model.Brands)
+     <select name="brandId">
+        @foreach (var brand in Model)
         {
             <option value="@brand.Id">@brand.Name</option>
         }
+
     </select>
 
-    <select name="categoryId">
-        @foreach (var category in Model.Categories)
+     <select name="categoryId">
+        @foreach (var category in Model)
+
         {
             <option value="@category.Id">@category.Name</option>
         }
