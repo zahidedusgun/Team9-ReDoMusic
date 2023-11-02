@@ -1,7 +1,43 @@
 ﻿@using ReDoMusic.Domain.Entities
 
 @model List<Brand>
-<table class="table">
+<style>
+   .custom-table {
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        max-height: 300px;
+        overflow-y: auto;
+    }
+
+    /* Tablo sütun başlıkları arka plan rengi */
+    .custom-table thead {
+        background-color: #000; /* Siyah arka plan rengi */
+        color: #fff; /* Beyaz metin rengi */
+    }
+
+    /* Tablo satırları arka plan rengi */
+    .custom-table tbody tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }    .custom-table {
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        max-height: 300px;
+        overflow-y: auto;
+    }
+
+        /* Tablo sütun başlıkları arka plan rengi */
+        .custom-table thead {
+            background-color: #000; /* Siyah arka plan rengi */
+            color: #fff; /* Beyaz metin rengi */
+        }
+
+        /* Tablo satırları arka plan rengi */
+        .custom-table tbody tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+</style>
+
+<table class="table custom-table">
     <thead>
     <tr>
         <th scope="col">Name</th>
@@ -11,16 +47,16 @@
     </tr>
     </thead>
     <tbody>
-    
-        @foreach (var brand in Model)
-        {
+    @foreach (var brand in Model)
+    {
         <tr>
             <td>@brand.Name</td>
             <td>@brand.Description</td>
             <td>@brand.Adress</td>
-            <td><a asp-action="DeleteBrand" asp-route-id="@brand.Id" class="btn btn-danger">Delete</a></td>
-         </tr>
-        }
-
+            <td>
+                <a asp-action="DeleteBrand" asp-route-id="@brand.Id" class="btn delete-button">Delete</a>
+            </td>
+        </tr>
+    }
     </tbody>
 </table>

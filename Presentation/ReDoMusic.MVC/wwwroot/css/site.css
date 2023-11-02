@@ -15,6 +15,7 @@ html {
 html {
   position: relative;
   min-height: 100%;
+
 }
 
 body {
@@ -23,4 +24,29 @@ body {
 
 .nav-link {
     color: white;
+    font-style:bold;
+}
+
+.navbar-brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+     color: #ffcc00;
+     font-weight: bold;
+}
+
+.navbar-dark {
+    background-color: #000;
+}
+.vertical-line {
+    border-left: 1px solid #fff; 
+    height: 40px; 
 }
