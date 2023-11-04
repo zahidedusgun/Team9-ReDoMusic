@@ -1,42 +1,67 @@
-﻿@model List<ReDoMusic.Domain.Entities.Category>
-<form method="post">
-    <div class="mb-3 mt-3">
-        <label class="form-label">Name:</label>
-        <input type="text" class="form-control" placeholder="Enter Instrument Name" name="name">
-    </div>
-    <div class="mb-3">
-        <label class="form-label">Description:</label>
-        <input type="text" class="form-control" placeholder="Enter Instrument Description" name="description">
-    </div>
-    <div class="mb-3">
-        <label class="form-label">Price:</label>
-        <input type="text" class="form-control" placeholder="Enter Price" name="price">
-    </div>
-    <div class="mb-3">
-        <label class="form-label">Barcode:</label>
-        <input type="text" class="form-control" placeholder="Enter Barcode" name="barcode">
-    </div>
-    <div class="mb-3">
-        <label class="form-label">Image:</label>
-        <input type="text" class="form-control" placeholder="Enter Barcode" name="pictureUrl">
-    </div>
-    <br />
-     <select name="brandId">
-        @foreach (var brand in Model)
-        {
-            <option value="@brand.Id">@brand.Name</option>
-        }
+﻿@model AddInstrumentModel
 
-    </select>
+<style>
+    .select-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 
-     <select name="categoryId">
-        @foreach (var category in Model)
+    select {
+        border-radius: 10px; /* Yuvarlak kutuları daha küçük yapar */
+        padding: 10px;
+        width: 48%; /* İki select kutusunu yan yana yerleştirir */
+    }
+</style>
 
-        {
-            <option value="@category.Id">@category.Name</option>
-        }
-    </select> 
-    <br />
-    <br />
-    <button type="submit" class="btn btn-primary">Submit</button>
-</form>
+<div class="d-flex justify-content-center mt-5">
+    <div class="card" style="width: 500px; height: 700px; border-color: #B2B2B2; box-shadow: 0 4px 56px rgba(0, 0, 0, 0.1);">
+        <div class="card-header" style="height: 70px;">
+            <h2 class="text-center">Add Instrument Part</h2>
+        </div>
+        <form method="post" style="padding: 35px;">
+            <div class="mb-3">
+                <label class="form-label">Name:</label>
+                <input type="text" class="form-control" placeholder="Enter Instrument Name" name="name">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Description:</label>
+                <input type="text" class="form-control" placeholder="Enter Instrument Description" name="description">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Price:</label>
+                <input type="text" class="form-control" placeholder="Enter Price" name="price">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Barcode:</label>
+                <input type="text" class="form-control" placeholder="Enter Barcode" name="barcode">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Image:</label>
+                <input type="text" class="form-control" placeholder="Enter Barcode" name="pictureUrl">
+            </div>
+            <br />
+            <div class="select-wrapper">
+                <select name="brandId">
+                    @foreach (var brand in Model.Brands)
+                    {
+                        <option value="@brand.Id">@brand.Name</option>
+                    }
+                </select>
+
+                <select name="categoryId">
+                    @foreach (var category in Model.Categories)
+                    {
+                        <option value="@category.Id">@category.Name</option>
+                    }
+                </select>
+            </div>
+            <br />
+            <br />
+
+            <div class="d-flex justify-content-center">
+                <button type="submit" class="btn btn-success mt-1">Add Instrument</button>
+            </div>
+        </form>
+    </div>
+</div>

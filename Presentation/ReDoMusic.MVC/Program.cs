@@ -22,6 +22,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Brand}/{action=Index}/{id?}");
+    pattern: "{controller=instrument}/{action=Index}/{id?}");
 
 app.Run();

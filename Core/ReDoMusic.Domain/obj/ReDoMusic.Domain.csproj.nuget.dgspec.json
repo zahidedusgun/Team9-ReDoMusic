@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Zahide Düşgün\\Desktop\\TeamProject\\Core\\ReDoMusic.Domain\\ReDoMusic.Domain.csproj": {}
+    "C:\\Users\\Zahide Düşgün\\Desktop\\TeamProject\\Team9-ReDoMusic\\Core\\ReDoMusic.Domain\\ReDoMusic.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Zahide Düşgün\\Desktop\\TeamProject\\Core\\ReDoMusic.Domain\\ReDoMusic.Domain.csproj": {
+    "C:\\Users\\Zahide Düşgün\\Desktop\\TeamProject\\Team9-ReDoMusic\\Core\\ReDoMusic.Domain\\ReDoMusic.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Zahide Düşgün\\Desktop\\TeamProject\\Core\\ReDoMusic.Domain\\ReDoMusic.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Zahide Düşgün\\Desktop\\TeamProject\\Team9-ReDoMusic\\Core\\ReDoMusic.Domain\\ReDoMusic.Domain.csproj",
         "projectName": "ReDoMusic.Domain",
-        "projectPath": "C:\\Users\\Zahide Düşgün\\Desktop\\TeamProject\\Core\\ReDoMusic.Domain\\ReDoMusic.Domain.csproj",
+        "projectPath": "C:\\Users\\Zahide Düşgün\\Desktop\\TeamProject\\Team9-ReDoMusic\\Core\\ReDoMusic.Domain\\ReDoMusic.Domain.csproj",
         "packagesPath": "C:\\Users\\Zahide Düşgün\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Zahide Düşgün\\Desktop\\TeamProject\\Core\\ReDoMusic.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Zahide Düşgün\\Desktop\\TeamProject\\Team9-ReDoMusic\\Core\\ReDoMusic.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Zahide Düşgün\\AppData\\Roaming\\NuGet\\NuGet.Config",

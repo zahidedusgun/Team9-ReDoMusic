@@ -12,7 +12,7 @@ using ReDoMusic.Persistence.Contexts;
 namespace ReDoMusic.Persistence.Migrations
 {
     [DbContext(typeof(ReDoMusicDbContext))]
-    [Migration("20231031082132_mig_1_create_tables")]
+    [Migration("20231102222302_mig_1_create_tables")]
     partial class mig_1_create_tables
     {
         /// <inheritdoc />
@@ -106,7 +106,7 @@ namespace ReDoMusic.Persistence.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Category");
+                    b.ToTable("Categories");
                 });
 
             modelBuilder.Entity("ReDoMusic.Domain.Entities.Instrument", b =>
