@@ -10,7 +10,7 @@ The details of the project, which we completed as Team 9, are provided below: â‡
 - A new database was created for the team.
 - The existing project shared by Hakan Leader was set up to create a common repository for the team.
 - Irems's Category entity was connected to the database, and the necessary controllers were created on the MVC side. This enables the addition of a new instrument along with its category.
-- Throughout the entire project, frontend improvements were made, adding visual richness to the project.
+- Throughout the entire project, frontend improvements were made, adding visual richness to the project. (Card, Navbar designs etc.)
 
 ## Alperen's Part  [![Alperen](https://img.shields.io/badge/Alperen-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/alofdean)
 
@@ -22,7 +22,12 @@ The details of the project, which we completed as Team 9, are provided below: â‡
 
 ## The interface of the project
 
+![bg](https://github.com/zahidedusgun/Team9-ReDoMusic/assets/98893927/4635afcb-5b58-4280-befd-5c5ed01f7780)
 
+![bg (1)](https://github.com/zahidedusgun/Team9-ReDoMusic/assets/98893927/d3c74a44-a5af-426b-a5d3-f4f68012aef5)
 
+![BrandList](https://github.com/zahidedusgun/Team9-ReDoMusic/assets/98893927/678c62d5-1ee9-4a80-8446-ebfa78ff0874)
 
+![AddCategory](https://github.com/zahidedusgun/Team9-ReDoMusic/assets/98893927/2f3480f0-810b-4701-a432-192fa976ecde)
 
+![AddInstrument](https://github.com/zahidedusgun/Team9-ReDoMusic/assets/98893927/d91bf890-c08d-4621-b3eb-4b435c093483)
