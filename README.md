@@ -14,8 +14,9 @@
 - Throughout the entire project, frontend improvements were made, adding visual richness to the project. (Card, Navbar designs etc.)
 
 ## Alperen's Part  [![Alperen](https://img.shields.io/badge/Alperen-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/alofdean)
--
--
+- Deletion Features added.
+- Tried to do Listing Instruments by Categories.
+- Fixed path error for mac.
 
 
 
