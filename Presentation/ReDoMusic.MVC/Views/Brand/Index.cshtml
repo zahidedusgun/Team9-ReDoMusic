@@ -1,71 +1,43 @@
 ﻿@using ReDoMusic.Domain.Entities
 
 @model List<Brand>
-<<<<<<< HEAD
 <style>
-    .custom-table {
+   .custom-table {
         border: 1px solid #ddd;
-        border-radius: 10px;
-        max-height: 300px;
-        overflow-y: auto;
+        width: 1000px;
+        heidght: 1000px;
+        border-radius: 20px;
     }
-        /* Tablo sütun başlıkları arka plan rengi */
-        .custom-table thead {
-            background-color: #000; /* Siyah arka plan rengi */
-            color: #fff; /* Beyaz metin rengi */
-        }
-        /* Tablo satırları arka plan rengi */
-        .custom-table tbody tr:nth-child(even) {
-            background-color: #f2f2f2;
-        }
+   .custom-table thead {
+            background-color: black;
+        color: #fff;
+   }
+    .custom-table-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+/*         height: 100vh; /* Ekran yüksekliği kadar yer kaplasın */
+ */    }
+ h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+ }
 
-    .custom-table {
-        border: 1px solid #ddd;
-        border-radius: 10px;
-        max-height: 300px;
-        overflow-y: auto;
-    }
-        /* Tablo sütun başlıkları arka plan rengi */
-        .custom-table thead {
-            background-color: #000; /* Siyah arka plan rengi */
-            color: #fff; /* Beyaz metin rengi */
-        }
-        /* Tablo satırları arka plan rengi */
-        .custom-table tbody tr:nth-child(even) {
-            background-color: #f2f2f2;
-        }
 </style>
+<h2 class="mt-5">Brand List</h2>
 
-<table class="table custom-table">
-<thead>
-<tr>
-<th scope="col">Name</th>
-</tr>
-</thead>
-<tbody>
-@foreach (var brand in Model)
-{ <tr>
-      <td>@brand.Name</td>
-      <td>@brand.Description</td>
-      <td>@brand.Adress</td>
-      <td>
-          <a asp-action="DeleteBrand" asp-route-id="@brand.Id" class="btn delete-button">Delete</a>
-      </td>
-  </tr>
-}
-        </tbody>
-=======
-<table class="table">
-    <thead>
-    <tr>
-        <th scope="col">Name</th>
-        <th scope="col">Description</th>
-        <th scope="col">Address</th>
-        <th scope="col">Delete</th>
-    </tr>
-    </thead>
-    <tbody>
-    
+<div class="custom-table-container mt-5">
+    <table class="table custom-table ">
+        <thead>
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Description</th>
+            <th scope="col">Address</th>
+            <th scope="col">Delete</th>
+        </tr>
+        </thead>
+        <tbody>
         @foreach (var brand in Model)
         {
         <tr>
@@ -73,9 +45,8 @@
             <td>@brand.Description</td>
             <td>@brand.Adress</td>
             <td><a asp-action="DeleteBrand" asp-route-id="@brand.Id" class="btn btn-danger">Delete</a></td>
-         </tr>
+        </tr>
         }
-
-    </tbody>
->>>>>>> 7be1f69e9875f8ef2dc2742cba34b533cf880d0e
-</table>
+        </tbody>
+    </table>
+</div>

@@ -8,22 +8,55 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/ReDoMusic.MVC.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
-<body>
-<<<<<<< HEAD
-    <div class="head">
-        <a class="navbar-brand mt-5" asp-area="" asp-controller="instrument" asp-action="Index"><img src="https://www.do-re.com.tr/Images/logo-30yil.svg?v=1" width="250px" /></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <input />
-    </div>
-    <header class="mt-3">
-        <nav class="navbar navbar-dark bg-dark navbar-expand-sm navbar-toggleable-sm border-bottom box-shadow ">
-            <div class="container-fluid">
+<style>
+    .RightPart {
+        margin-left: 50px;
+        display: flex;
+        align-items: center;
+    }
 
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+        .RightPart i {
+            font-size: 24px; /* İkonların font boyutunu büyütün */
+            margin-right: 10px; /* İkonlar arasındaki boşluğu ayarlayın */
+        }
+
+        .RightPart span {
+            font-size: 24px; /* Yazının font boyutunu büyütün */
+        }
+
+</style>
+
+<body>
+    <div class="head mt-10 mb-10">
+    <div class="d-flex align-items-center justify-content-center mt-10 mb-10" style="height: 100px;">
+        <div class="navbar-brands m d-flex align-items-center">
+            <a class="navbar-brand m d-flex justify-content-between align-items-center" asp-area="" asp-controller="instrument" asp-action="Index">
+                <img src="https://www.do-re.com.tr/Images/logo-30yil.svg?v=1" width="250px" />
+            </a>
+        </div>
+        <div class="input-group mt-5" style="height: 40px; width: 500px; border-radius: 30px; margin-left: 50px;">
+            <input type="text" class="form-control" placeholder="Search for items" style="border-right: 1px solid white; border-radius: 30px 0 0 30px; padding-right: 40px;" />
+            <div class="input-group-prepend">
+                <span class="input-group-text" style="background-color: white; height: 40px; border-radius: 0 30px 30px 0;">
+                    <i class="fas fa-search"></i>
+                </span>
+            </div>
+        </div>
+        <div class="RightPart mt-5">
+            <i class="fa-regular fa-user"></i> <!-- İkonun font boyutu büyütüldü -->
+            <span>Enter or Register</span> <!-- Yazının font boyutu büyütüldü -->
+            <i class="fa-solid fa-basket-shopping" style="margin-left: 50px;"></i>
+            <span>Basket</span>
+        </div>
+    </div>
+    </div>
+
+<header class="mt-3" >
+        <nav class="navbar navbar-dark bg-dark navbar-expand-sm navbar-toggleable-sm border-bottom box-shadow">
+        <div class="container-fluid">
+            <div class="navbar-collapse collapse d-sm-inline-flex justify-content-center">
                 <ul class="navbar-nav flex-grow-1">
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -44,9 +77,8 @@
                         </ul>
                     </li>
                     <div class="vertical-line"></div>
-
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role a-button" data-bs-toggle="dropdown" aria-expanded="false">
                             List Items
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
@@ -55,106 +87,30 @@
                             </li>
                             <hr />
                             <li class="nav-item">
-
                                 <a class="nav-link text-dark" asp-area="" asp-controller="Brand" asp-action="Index">List Brands</a>
                             </li>
-                            <hr/>
+                            <hr />
                             <li class="nav-item">
                                 <a class="nav-link text-dark" asp-area="" asp-controller="Instrument" asp-action="index">List Instruments</a>
                             </li>
                         </ul>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" asp-area="" asp-controller="Category" asp-action="AddCategory">Add Category</a>
-                    </li>
-                    <hr/>
-                    <li class="nav-item">
-                        <a class="nav-link" asp-area="" asp-controller="Brand" asp-action="AddBrand">Add Brand</a>
-                    </li>
-                    <hr/>
-                    <li class="nav-item">
-                        <a class="nav-link" asp-area="" asp-controller="Instrument" asp-action="Add">Add Instrument</a>
-                    </li>
                 </ul>
-=======
-    <header>
-        <nav class="navbar navbar-dark bg-dark navbar-expand-sm navbar-toggleable-sm border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="instrument" asp-action="Index"><img src="https://www.do-re.com.tr/Images/logo-30yil.svg?v=1" width="100px" /></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Link
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                                <li class="nav-item">
-                                    <a class="nav-link text-dark" asp-area="" asp-controller="Brand" asp-action="Index">List Brands</a>
-                                </li>
-                                <hr>
-                                <li class="nav-item">
-                                    <a class="nav-link text-dark" asp-area="" asp-controller="Brand" asp-action="AddBrand">Add Brand</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link " asp-area="" asp-controller="Brand" asp-action="Index">List Brands</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link " asp-area="" asp-controller="Brand" asp-action="AddBrand">Add Brand</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link " asp-area="" asp-controller="Instrument" asp-action="Add">Add Instrument</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link " asp-area="" asp-controller="Instrument" asp-action="index">List Instruments</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link " asp-area="" asp-controller="Category" asp-action="AddCategory">Add Category</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link " asp-area="" asp-controller="Category" asp-action="CategoryIndex">List Category</a>
-                        </li>
-                    </ul>
->>>>>>> 7be1f69e9875f8ef2dc2742cba34b533cf880d0e
-                </div>
             </div>
-        </nav>
-    </header>
-<<<<<<< HEAD
-<div class="container">
-    <main role="main" class="pb-3">
-        @RenderBody()
-    </main>
-</div>
+        </div>
+    </nav>
+</header>
 
-<footer class="border-top footer text-muted">
-<div class="container">
-Team9 ReDoMusic Project <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-=======
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            Team9 ReDoMusic Project <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
->>>>>>> 7be1f69e9875f8ef2dc2742cba34b533cf880d0e
-        </div>
-    </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
-<<<<<<< HEAD
 
-=======
->>>>>>> 7be1f69e9875f8ef2dc2742cba34b533cf880d0e
 </body>
 </html>

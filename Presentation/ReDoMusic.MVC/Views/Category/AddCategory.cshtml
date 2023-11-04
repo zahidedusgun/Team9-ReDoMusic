@@ -1,14 +1,22 @@
-﻿<h2>Add Brand</h2>
+﻿
+<div class="d-flex justify-content-center mt-5">
+    <div class="card" style="width: 500px; height: 450px; border-color:#B2B2B2; box-shadow: 0 4px 56px rgba(0, 0, 0, 0.1);">
+        <div class="card-header" style=" height:65px;">
+            <h2 class="text-center">Add Category Part</h2>
+        </div>
+        <form method="post" style="padding: 35px;">
+            <div class="mb-3 mt-3">
+                <label class="form-label">Category Name:</label>
+                <input type="text" class="form-control" placeholder="Enter Category Name" name="categoryName">
+            </div>
+            <div class="mb-5 mt-3">
+                <label class="form-label">ImageUrl:</label>
+                <input type="text" class="form-control" placeholder="Enter Category Image" name="categoryImageUrl">
+            </div>
 
-<form method="post">
-    <div class="mb-3 mt-3">
-        <label class="form-label">Category Name:</label>
-        <input type="text" class="form-control" placeholder="Enter Category Name" name="categoryName">
+            <div class="d-flex justify-content-center">
+                <button type="submit" class="btn btn-success">Add Category</button>
+            </div>
+        </form>
     </div>
-    <div class="mb-3 mt-3">
-        <label class="form-label">ImageUrl:</label>
-        <input type="text" class="form-control" placeholder="Enter Category Image" name="categoryImageUrl">
-    </div>
-
-    <button type="submit" class="btn btn-primary">Create</button>
-</form>
+</div>

@@ -1,23 +1,72 @@
-﻿@using ReDoMusic.Domain.Entities
+﻿@model List<ReDoMusic.Domain.Entities.Category>
+<head>
+    <style>
+        .row {
+            display: flex;
+        }
 
-@model List<Category>
-<table class="table">
-    <thead>
-    <tr>
-        <th scope="col">Name</th>
-        <th scope="col">ImageUrl</th>
-    </tr>
-    </thead>
-    <tbody>
+        .column {
+            flex: 1;
+            padding: 10px;
+        }
 
-        @foreach (var category in Model)
+        .card {
+            margin: 15px;
+            border-color: #B2B2B2;
+            position: relative;
+            transition: transform 0.1s;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Gölge ekleniyor */
+        }
+
+            .card:hover {
+                transform: scale(1.1);
+            }
+
+        h2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+
+<body>
+<h2>Categories</h2>
+<div class="row" style="height: 50px; width: 500px; margin: -5px;">
+
+    @foreach (var category in Model)
     {
-        <tr>
-            <td>@category.Name</td>
-                <td>@category.ImageUrl</td>
-                <td><a asp-action="DeleteCategory" asp-route-id="@category.Id" class="btn btn-danger">Delete</a></td>
-        </tr>
-    }
+        <div class="card column">
+            <img class="card-img-top" src="@category.ImageUrl" alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title">@category.Name</h4>
+            </div>
+            <a asp-action="DeleteCategory" asp-route-id="@category.Id" class="btn btn-danger">Delete</a>
 
-    </tbody>
-</table>
+        </div>
+    }
+</div>
+
+<script>
+        const cards = document.querySelectorAll('.card');
+        cards.forEach(card => {
+            let hovered = false;
+
+            card.addEventListener('mouseenter', () => {
+                if (!hovered) {
+                    card.style.transform = 'scale(1.1)';
+                    hovered = true;
+                }
+            });
+
+            card.addEventListener('mouseleave', () => {
+                card.style.transform = 'scale(1)';
+                hovered = false;
+            });
+        });
+    </script>
+
+
+</body>
