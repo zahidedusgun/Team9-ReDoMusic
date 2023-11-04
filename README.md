@@ -1,6 +1,7 @@
 # Team 9 ReDoMusic Project
-This repository contains the ReDoMusic project provided by YetGen Akbank Bootcamp. 
-The details of the project, which we completed as Team 9, are provided below: ⇓
+- This repository contains the ReDoMusic project provided by YetGen Akbank Bootcamp. 
+- We took Do-remusis's website as a reference. 👉 [Here is the link](https://www.do-re.com.tr/doremusic?sayfa=2&gclid=CjwKCAjw15eqBhBZEiwAbDomEkmhYoz2_zz94e7ju1h9MVm0PZhXjEB1_hFTHrqHuAGKuUK3XmWQIxoCBZ0QAvD_BwE)
+- The details of the project, which we completed as Team 9, are provided below: ⇓
 
 ## Irem's part [![Irem](https://img.shields.io/badge/Irem-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/iremdemir70)
 - The class has properties for representing objects with an ID, name, and image URL.
@@ -13,9 +14,8 @@ The details of the project, which we completed as Team 9, are provided below: �
 - Throughout the entire project, frontend improvements were made, adding visual richness to the project. (Card, Navbar designs etc.)
 
 ## Alperen's Part  [![Alperen](https://img.shields.io/badge/Alperen-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/alofdean)
-
-
-
+-
+-
 
 
 
